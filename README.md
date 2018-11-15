@@ -31,7 +31,11 @@ python samplot/src/samplot.py \
 Any missing dependencies? Try installing with `pip`
 
 ## Step 3: Some real examples (or are they?)
-There are more possible variants in the `variants.bed` file of this repo. Plot them and take a look at the results. Which look real and which look like false positives?
+There are more possible variants in the `variants.bed` file of this repo. Plot them and take a look at the results. 
+### Questions:
+* Which look real and which look like false positives?
+* What's the pattern of inheritance for each?
+* What types of evidence exist for each?
 
 ## Step 4: Advanced options:
 * Samplot help
