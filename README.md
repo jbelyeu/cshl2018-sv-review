@@ -19,12 +19,25 @@ wget <some_url>
 You almost always have to index BAMs before use. Remember how?
 
 ## Step 2: Run samplot
-Samplot requires a region and a BAM/CRAM file (we'll use BAMs today). It creates a static image file such as a .png, .jpg, or .pdf. Let's view a region by running the samplot Python script
+Samplot requires a region and a BAM/CRAM file (we'll use BAMs today). It creates a static image file such as a .png, .jpg, or .pdf. Let's view a region by running the samplot Python script:
 ```
 python samplot/src/samplot.py \
-        -c 6 \
-        -s 66929228 \
-        -e 66930228 \
-        -b cshl2018-sv-review/NA12878.bam \
-        -o 6_66929228_66930228.png
+        -c 6\
+        -s 66929228\
+        -e 66960228\
+        -b NA12878.bam\
+        -o 6_66929228_66960228.png
 ```
+Any missing dependencies? Try installing with `pip`
+
+## Step 3: Some real examples (or are they?)
+There are more possible variants in the `variants.bed` file of this repo. Plot them and take a look at the results. Which look real and which looks like false positives?
+
+## Step 4: Advanced options:
+* Samplot help
+* Downsampling
+* Window size
+* Confidence intervals
+* Common insert size
+* Repeat annotation (mappability)
+* Gene annotation
