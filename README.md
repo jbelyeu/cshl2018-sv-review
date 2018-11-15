@@ -45,3 +45,11 @@ There are more possible variants in the `variants.bed` file of this repo. Plot t
 * Common insert size
 * Repeat annotation (segmental duplications)
 * Gene annotation
+
+
+To work with annotations, you'll need to download and index them. The GFF will also need to be sorted.
+```
+bedtools sort -i Homo_sapiens.GRCh37.82.gff3.gz | bgzip > Homo_sapiens.GRCh37.82.sorted.gff3.gz
+tabix -p gff Homo_sapiens.GRCh37.82.sorted.gff3.gz
+tabix -p bed segdups_selfchain.bed.gz
+```
