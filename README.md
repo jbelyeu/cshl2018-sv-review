@@ -39,5 +39,5 @@ There are more possible variants in the `variants.bed` file of this repo. Plot t
 * Window size
 * Confidence intervals
 * Common insert size
-* Repeat annotation (mappability)
+* Repeat annotation (segmental duplications)
 * Gene annotation
