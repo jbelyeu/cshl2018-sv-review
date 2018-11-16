@@ -1,3 +1,6 @@
+### Get up, stretch, and sign up for PlotCritic (I'll explain shortly)
+[CSHL Genome-in-a-Bottle site](http://cshl-giab-plotcritic-bucket.s3-website-us-east-1.amazonaws.com/)
+
 # Learn to review genomic regions with samplot
 ## Step 1: Get samplot and some test files
 Note: This isn't meant as a tutorial, just a set of instructions. I hope by this point in the course you'll all have the expertise to figure out the pieces I'm leaving out, with a little help.
