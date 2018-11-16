@@ -53,3 +53,6 @@ bedtools sort -i Homo_sapiens.GRCh37.82.gff3.gz | bgzip > Homo_sapiens.GRCh37.82
 tabix -p gff Homo_sapiens.GRCh37.82.sorted.gff3.gz
 tabix -p bed segdups_selfchain.bed.gz
 ```
+
+# Direct measurement of de novo structural variation
+Slides [here](https://docs.google.com/presentation/d/1cyAYVkh-S0xFBgzQa1r-qhOJm3krG8aRCGxjqFil7PA/edit?usp=sharing)
