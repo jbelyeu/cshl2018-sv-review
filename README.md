@@ -12,7 +12,7 @@ wget <some_url>
 
 You could also clone this repository. It will come with all the data you need for these examples.
 
-You almost always have to index BAMs before use. Remember how?
+You need to index BAMs before use. Remember how?
 
 Load up the following in IGV once you've indexed the BAMs (`Load from URL` in IGV)
 * NA12878.bam
