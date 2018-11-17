@@ -1,6 +1,3 @@
-### Get up, stretch, and sign up for PlotCritic (I'll explain shortly)
-[CSHL Genome-in-a-Bottle site](http://cshl-giab-plotcritic-bucket.s3-website-us-east-1.amazonaws.com/)
-
 # Learn to review genomic regions with samplot
 ## Step 0: Learn about the data
 Download the BAM and BED files from this repo. I like `wget`
@@ -65,5 +62,9 @@ tabix -p gff Homo_sapiens.GRCh37.82.sorted.gff3.gz
 tabix -p bed segdups_selfchain.bed.gz
 ```
 
-# Direct measurement of de novo structural variation
+## Extra resources
+### Direct measurement of de novo structural variation
 Slides [here](https://docs.google.com/presentation/d/1cyAYVkh-S0xFBgzQa1r-qhOJm3krG8aRCGxjqFil7PA/edit?usp=sharing)
+
+### PlotCritic site
+[CSHL Genome-in-a-Bottle site](http://cshl-giab-plotcritic-bucket.s3-website-us-east-1.amazonaws.com/)
